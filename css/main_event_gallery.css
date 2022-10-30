@@ -1,0 +1,20 @@
+*{margin: 0; padding: 0;}
+
+/* 슬라이드배너 꾸미기 */
+.swiper {width: 660px;
+			height: 250px;
+			padding: 25px 0;
+			float: right;
+			margin-right: 60px;}
+
+.swiper-slide {display: block;
+				align-items: center;
+				justify-content: center;
+				border-radius: 18px;
+				font-size: 22px;
+				font-weight: bold;
+				color: #fff;}
+
+.swiper-3d .swiper-slide-shadow{
+	border-radius: 100px;
+}

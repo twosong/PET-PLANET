@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1400"><!--다른 매체에서도 너비 오류 없이 볼 수 있게-->
+  <link href="./images/Favicon.png" rel="icon" type="image/png" sizes="32x32" ><!--파비콘-->
+  <title>PET PLANET</title>
+
+  <!--폰트 링크 연결-->
+  <link href="https://webfontworld.github.io/SCoreDream/SCoreDream.css" rel="stylesheet">
+
+  <!-- 슬라이드 css -->
+	<link href="./css/main_swiper.css" rel="stylesheet" type="text/css"><!-- 수정X -->
+  <!--배너 슬라이드-->
+	<link href="./css/main_banner_slidebanner.css" rel="stylesheet" type="text/css">
+  <!--이벤트 슬라이드-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+  <link href="./css/main_event_gallery.css" rel="stylesheet" type="text/css"> 
+  <!--베스트 슬라이드-->
+  <link href="./css/main_shop_best_gallery-center.css" rel="stylesheet" type="text/css">
+  <!-- aos css -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <!--내 css 연결-->
+  <link rel="stylesheet" href="./css/style_main.css">
+
+</head>
+<body>
+  
+  <!--top-->
+  <div id="top">
+    <p><a href="#">회원가입 하고 할인 받으러 가기</a></p>
+  </div>
+
+  <!--header-->
+  <div id="header">
+    <div class="h_inner">
+        <a href="./index.html"><img src="./images/h_logo.png" alt="h_logo" class="h_logo"></a>
+        <div class="nav">
+            <ul>
+              <li><a href="./sub_1brand.html">Brand</a></li>
+              <li><a href="./sub_2shop.html">Shop</a>
+                <ul class="sub sub-p1">
+                    <li><a href="./sub_2shop.html#tap_all">All</a></li>
+                    <li><a href="./sub_2shop.html#pet_living">Pet 리빙</a></li>
+                    <li><a href="./sub_2shop.html#pet_care">Pet 케어</a></li>
+                    <li><a href="./sub_2shop.html#pet_brand">브랜드 굿즈</a></li>
+                </ul>
+              </li>
+              <li><a href="./sub_3Community.html">Community</a>
+                <ul class="sub sub-p2">
+                  <li><a href="./sub_3Community.html#notic">공지</a></li>
+                  <li><a href="./sub_3Community.html#faq">자주묻는 질문</a></li>
+                  <li><a href="./sub_3Community.html#event">이벤트</a></li>
+                  <li><a href="./sub_3Community.html#shop_text">오프라인 매장</a></li>
+                </ul>
+              </li>
+              <li><a href="./sub_4PP-plan.html">PP-plan</a>
+                <ul class="sub sub-p3">
+                  <li><a href="./sub_4PP-plan.html#box1">PP-plan</a></li>
+                  <li><a href="./sub_4PP-plan.html#cont3">PP 봉사단</a></li>
+                  <li><a href="./sub_4PP-plan.html#cont3">기부 및 후원</a></li>
+                </ul>
+              </li>
+            </ul>
+        </div>
+        <div class="h_right">
+          <p><a href="#">로그인</a></p>
+          <p><a href="#">회원가입</a></p>
+          <p><a href="#">장바구니</a></p>
+          <p><a href="#">주문조회</a></p>
+          <input type="search">
+        </div>
+    </div>
+  </div>
+
+
+<!-- 메인페이지 시작 -->
+
+  <!--banner-->
+    <div id="banner">
+      <!-- 슬라이드 구문 -->
+	  <div class="swiper-container slide">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a href="#"><img src="./images/main_banner_1.png" alt="배너1"></a> 
+        </div>
+        <div class="swiper-slide">
+          <a href="#"><img src="./images/main_banner_2.png" alt="배너2"></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="#"><img src="./images/main_banner_1.png" alt="배너3"></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="#"><img src="./images/main_banner_2.png" alt="배너4"></a>
+        </div>
+      </div>
+      <!-- 화살표 버튼 -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <!-- 블릿 버튼 -->
+      <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <!--evert-->
+    <div id="event">
+      <div id="e_inner">
+      <div class="swiper gallery">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="#"><img src="./images/main_event_1.png" alt="갤러리1"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="./images/main_event_2.png" alt="갤러리1"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="./images/main_event_3.png" alt="갤러리1"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="./images/main_event_4.png" alt="갤러리1"></a>
+          </div>
+        </div>
+    </div>
+   </div>
+  </div>
+
+  <!--best-->
+  <p class="best_text">Best</p>
+  <div id="best_pet">
+      	<!-- 슬라이드 구문 -->
+	  <div class="swiper-container gallery-center">
+      <div class="gallery_inner">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide s1">
+            <a href="#">
+              <img src="./images/main_best_pet_1.png" alt="갤러리1">
+              <p>P.P 클라우드 방석</p></a>
+          </div>
+          <div class="swiper-slide s2">
+            <a href="#">
+              <img src="./images/main_best_pet_2.png" alt="갤러리1">
+              <p>펫플 발톱 깎이
+              </p></a>
+          </div>
+          <div class="swiper-slide s1">
+            <a href="#">
+              <img src="./images/main_best_pet_3.png" alt="갤러리1">
+              <p>친환경 접이그릇</p></a>
+          </div>
+          <div class="swiper-slide s2">
+            <a href="#">
+              <img src="./images/main_best_pet_4.png" alt="갤러리1">
+              <p>산책 배변봉투</p></a>
+          </div>
+        </div>
+        <!-- 화살표 버튼 -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <!-- 블릿 버튼 
+        <div class="swiper-pagination"></div>-->
+        </div>
+    </div>
+  </div>
+  <div id="best_brandgoods">
+      <!-- 슬라이드 구문 -->
+	  <div class="swiper-container gallery-center">
+      <div class="gallery_inner">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide s1">
+            <a href="#">
+              <img src="./images/main_best_brandgoods_1.png" alt="갤러리1">
+              <p>펫 다이어리</p></a>
+          </div>
+          <div class="swiper-slide s2">
+            <a href="#">
+              <img src="./images/main_best_brandgoods_2.png" alt="갤러리1">
+              <p>플래닛 케이스</p></a>
+          </div>
+          <div class="swiper-slide s1">
+            <a href="#">
+              <img src="./images/main_best_brandgoods_3.png" alt="갤러리1">
+              <p>플래닛 에코백</p></a>
+          </div>
+        </div>
+        <!-- 화살표 버튼 -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <!-- 블릿 버튼 
+        <div class="swiper-pagination"></div>-->
+        </div>
+    </div>
+  </div>
+
+  <!--brand story . pp-plan-->
+  <div id="bp">
+    <img src='./images/main_brandstory,pp-plan.png' alt="back" class="bp_banner" data-aos="zoom-in">
+    <p>PET PLANET은 반려동물을 위한 반려동물 용품 브랜드 입니다. <br>
+      동물 친구들의 생활에 한발자국 더 다가가 <br>
+      더 좋은 환경에서 살아갈 수 있도록 함께 하겠습니다.
+    </p>
+    <div class="bp_a"><a href="./sub_4PP-plan.html#box1">PP-plan 바로가기</a></div>
+    <img src="./images/main_icon_airplane.png" alt="airplane" class="bp_airplane_img">
+  </div>
+
+  <!--바로가기-->
+  <div id="cloud_back">
+    <div id="c_inner">
+      <a href="./sub_3Community.html#notic"><img src="./images/main_c_1notic.png" alt="notic" class="balloon"></a>
+      <a href="./sub_3Community.html#faq"><img src="./images/main_c_2faq.png" alt="faq" class="balloon"></a>
+      <a href="./sub_3Community.html#shop_text"><img src="./images/main_c_3shop.png" alt="Shop" class="balloon"></a>
+    </div>
+  </div>
+
+<!-- 메인페이지 끝 -->
+
+
+  <!--footer 1-->
+  <div id="footer1">
+    <div class="f1_inner">
+      <ul>
+        <li><a href="#">이용약관</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+        <li><a href="#">이용안내</a></li>
+      </ul>
+    </div>
+  </div>
+
+    <!--footer 2-->
+    <div id="footer2">
+      <div class="f2_inner">
+        <img src="./images/f2_logo.png" alt="f2_logo" class="f2_logo">
+            <p class="f2_text">PET PLANET COMPANY <br>
+              대표 | 이송민 <br>
+              이메일 | petplanet@petplanet.com <br>
+              전화번호 | 051-1234-5678 <br>
+              주소 | 부산광역시 연제구 중앙대로 1101</p>
+          <div class="f2_sns">
+              <a href="#">
+                <img src="./images/f2_1kakako.png" alt="sns">
+                <img src="./images/f2_1kakako_hover.png" alt="sns">
+              </a>
+              <a href="#">
+                <img src="./images/f2_2insta.png" alt="sns">
+                <img src="./images/f2_2insta_hover.png" alt="sns">
+              </a>
+              <a href="#">
+                <img src="./images/f2_3youtube.png" alt="sns">
+                <img src="./images/f2_3youtube_hover.png" alt="sns">
+              </a>
+              <a href="#">
+                <img src="./images/f2_4facebook.png" alt="sns">
+                <img src="./images/f2_4facebook_hover.png" alt="sns">
+              </a>
+          </div>
+      </div>
+    </div>
+
+  <!-- 슬라이드 js -->
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script><!-- 제이쿼리 라이브러리,수정X -->
+	<script src="./script/main_swiper.min.js"></script><!-- 수정X -->
+  <!--배너 슬라이드-->
+	<script src="./script/main_banner_slidebanner.js"></script><!--디자인에 맞게 수정-->
+  <!--이벤트 슬라이드-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+	<script src="./script/main_event_cardslide.js"></script>
+  <!--베스트 펫 슬라이드-->
+  <script src="./script/main_shop_best_gallery-center.js"></script><!--디자인에 맞게 수정-->
+  <!--브랜드 스토리 및 피피플랜 나타나기-->
+  <!-- js -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!-- aos 라이브러리 -->
+  <script src="./script/main_brandstory,pp-plan_aos.js"></script><!-- aos 소스 -->
+  
+</body>
+</html>

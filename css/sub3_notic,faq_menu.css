@@ -1,0 +1,41 @@
+@font-face {font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;}
+
+#tab{display: grid;
+      place-items: center;}
+
+.t_notic{padding: 50px 0;}
+        
+#tab nav{position: relative;
+            width: 400px;
+            height: 60px;
+            display: grid;
+            border-radius: 45px;
+            background: rgb(7, 81, 169);
+            grid-template-columns: repeat(2, 1fr);
+            transform-origin: center center;
+            transform: perspective(1000px);
+            overflow: hidden;}
+
+#tab nav a{list-style: none;
+              display: grid;
+              place-items: center;
+              font-family: "yg-jalnan";
+              font-size: 20px;
+              font-weight: 500;
+              color: white;
+              text-transform: capitalize;
+              z-index: 10;
+              cursor: pointer;}
+#tab nav a:hover,
+#tab nav a.active{color: black;}
+              
+#tab nav .focus-el{position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: calc(100% / 2);
+                    height: 100%;
+                    background: #ebf8ff;
+                    border-radius: 45px;}

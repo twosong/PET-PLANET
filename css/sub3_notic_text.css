@@ -1,0 +1,43 @@
+.notic_text > .btn {padding: 3px 10px;
+                      font-size: 13px;
+                      border-radius: 40px;}
+ 
+.n_text {background: #D1EEFE;
+          border: 3px solid #0751a9;
+          width: 1320px;
+          height: 600px;
+          margin: 100px auto;
+          padding: 0;
+          border-radius: 50px;
+          transition: all 600ms cubic-bezier(0.86, 0, 0.07, 1);
+          top: 100%;
+          position: fixed;
+          z-index: 99;
+          left: 50%;
+          margin-left: -660px;
+          text-align: left;}
+            
+.n_text .header {padding: 20px;
+                  border-bottom: 1px solid #ddd;
+                  position: relative;
+                  font-size: 20px;}
+  
+.n_text .body {padding: 20px;}
+  
+
+.btn {background-color: #0751a9;
+        padding: 10px;
+        display: inline-block;
+        border-radius: 20px;
+        color: #ffc870;
+        position: relative;
+        transition: all .4s ease;
+        cursor: pointer;}
+.btn:hover {box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);}
+
+.close-text{padding: 3px 10px;
+                        font-size: 20px;
+                        border-radius: 40px;
+                        float: right;}
+
+.notic_text.n_text-open .n_text {top: 0;}

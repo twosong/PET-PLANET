@@ -1,0 +1,299 @@
+@font-face {font-family: 'yg-jalnan';
+                src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+                font-weight: normal;
+                font-style: normal;}
+
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none;
+    color: black;}
+
+body{font-family: 'SCoreDream';
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 22px;
+        color: #000;
+        background-color: #FFFEE3;
+        min-width: 1320px;/*가운데 창 너비만큼 넣어주기!*/}
+
+/*top*/
+#top{width: 100%;
+        margin: 0 auto;
+        background-color: #0751a9;}
+
+#top p a{display: block;
+                color: white;
+                font-size: 15px;
+                font-weight: 500;
+                text-align: center;
+                padding: 4px 0;}
+#top p a:hover{text-decoration: underline;}
+
+/*header*/
+#header{width: 100%;
+        height: 100px;
+        margin: 0 auto;
+        background-color: #ebf8ff;}
+
+.h_inner{width: 1320px;
+        height: 100px;
+        margin: 0 auto;}
+
+.h_logo{float: left;
+        width: 360px;
+        padding: 5px 0;}
+
+.nav{width: 400px;
+        margin: 0 auto;}
+
+.nav> ul> li{float: left;
+                padding: 39px 0;
+                list-style: none;
+                position: relative;}
+.nav> ul> li:nth-child(1){margin-right: 30px;}
+.nav> ul> li:nth-child(2){margin-right: 30px;}
+.nav> ul> li:nth-child(3){margin-right: 30px;}
+
+.nav> ul> li> a{font-size: 20px;
+                font-weight: 900;
+                display: block;}
+.nav> ul> li> a:hover{color: #0751a9;}
+                
+.h_right{float: right;}
+
+.h_right p{float:left;
+                padding: 39px 10px 39px 0;}
+
+.h_right p a{float:left;
+                font-size: 15px;
+                font-weight: 500;}
+.h_right p a:hover{text-decoration: underline;}
+
+input[type="search"]{border-radius: 50px;
+                        background: url(../images/h_surch.png) no-repeat 100px center;
+                        display: inline-block;
+                        outline: none;
+                        width: 150px;
+                        height: 40px;
+                        margin: 30px 0;
+                        padding: 10px 50px 10px 10px;
+                        box-sizing: border-box;}
+
+                /* IE의 경우 */
+                input::-ms-clear,
+                input::-ms-reveal{display:none;}
+
+                /* 크롬의 경우 */
+                input::-webkit-search-decoration,
+                input::-webkit-search-cancel-button,
+                input::-webkit-search-results-button,
+                input::-webkit-search-results-decoration{display:none;}
+                        
+/*sub*/
+.sub{display: none;
+        position: absolute;
+        top: 100px;
+        width: 118px;
+        background-color: rgba(7, 81, 169, 0.8);
+        border-radius: 0 0 50px 50px;
+        z-index: 2;}
+
+.sub-p1{left: -30px;}
+/*.sub-p2{}*/
+.sub-p3{left: -15px;}
+
+.sub li a{display: block;
+                font-size: 16px;
+                text-align: center;;
+                color: white;
+                padding: 20px 0;}
+.sub li a:hover{color: #ffc870;
+                font-weight: 600;}
+
+.nav li:hover .sub{display: block;}
+
+
+/*---------- 서브2_샵_시작 ----------*/
+
+/*서브2_샵_배너*/
+.sub_shop_banner{width: 100%;
+        margin: 0 auto;
+        z-index: 1;}
+
+/*shop*/
+.shop_inner{width: 1320px;
+                height: 2500px;
+                margin: 0 auto;
+                padding: 100px 0;}
+
+.shop_box{width: 300px;
+                height: 520px;
+                position: relative;}
+
+.shop_left{float: left; margin-bottom: 50px;}
+.shop_center{float: left; margin: 0 210px; margin-bottom: 50px;}
+.shop_right{float: right; margin-bottom: 50px;}
+
+
+.shop_box_inner{width: 300px;
+                height: 400px;
+                border-radius: 100px;
+                background-color: #ffc870;
+                position: relative;
+                margin: 30px 0;
+                overflow: visible;}
+.shop_box_inner img{position: absolute;
+                        left: 50%;
+                        margin-left: -125px;
+                        top: 50%;
+                        margin-top: -125px;
+                        transition: all 1s;}
+
+.cushion{background: url(../images/sub2_BEST_icon.png) no-repeat 75px 30px,
+                        /*url(../images/sub2_NEW_icon.png) no-repeat 160px 30px,*/ 
+                        url(../images/sub2_shop_cushion_color1.png) no-repeat 65px 340px,
+                        url(../images/sub2_shop_cushion_color2.png) no-repeat 110px 340px,
+                        url(../images/sub2_shop_cushion_color3.png) no-repeat 155px 340px,
+                        url(../images/sub2_shop_cushion_color4.png) no-repeat 200px 340px,
+                        #ffc870;}
+
+.chewtoy{background:  url(../images/sub2_shop_chewtoy_color1.png) no-repeat 65px 340px,
+                        url(../images/sub2_shop_chewtoy_color2.png) no-repeat 110px 340px,
+                        #ffc870;}
+
+.dogpoop{background:  url(../images/sub2_BEST_icon.png) no-repeat 75px 30px,
+                        /*url(../images/sub2_NEW_icon.png) no-repeat 160px 30px,*/ 
+                        url(../images/sub2_shop_dogpoop_color1.png) no-repeat 65px 340px,
+                        url(../images/sub2_shop_dogpoop_color2.png) no-repeat 110px 340px,
+                        url(../images/sub2_shop_dogpoop_color3.png) no-repeat 155px 340px,
+                        url(../images/sub2_shop_dogpoop_color4.png) no-repeat 200px 340px,
+                        #ffc870;}
+
+.Traveldogbowls{background: url(../images/sub2_BEST_icon.png) no-repeat 75px 30px,
+                                /*url(../images/sub2_NEW_icon.png) no-repeat 160px 30px,*/ 
+                                url(../images/sub2_shop_Traveldogbowls_color1.png) no-repeat 65px 340px,
+                                url(../images/sub2_shop_Traveldogbowls_color2.png) no-repeat 110px 340px,
+                                #ffc870;}
+
+.petbag {background: /*url(../images/sub2_BEST_icon.png) no-repeat 75px 30px,
+                        url(../images/sub2_NEW_icon.png) no-repeat 160px 30px,*/ 
+                        url(../images/sub2_shop_petbag_color1.png) no-repeat 65px 340px,
+                        url(../images/sub2_shop_petbag_color2.png) no-repeat 110px 340px,
+                        url(../images/sub2_shop_petbag_color3.png) no-repeat 155px 340px,
+                        #ffc870;}
+
+.dogname{background:  url(../images/sub2_NEW_icon.png) no-repeat 160px 30px,
+                        url(../images/sub2_text1_icon.png) no-repeat 50px 65px,
+                        url(../images/sub2_text2_icon.png) no-repeat 50px 100px,
+                        #ffc870;}
+
+.nailcare{background: url(../images/sub2_BEST_icon.png) no-repeat 75px 30px,
+                        url(../images/sub2_shop_nailcare_color1.png) no-repeat 65px 340px,
+                        url(../images/sub2_shop_nailcare_color2.png) no-repeat 110px 340px,
+                        #ffc870;}
+
+.note, .bag, .phonecase{background: url(../images/sub2_BEST_icon.png) no-repeat 75px 30px,
+                                #ffc870;}
+
+.shop_box > a:hover img{transform: scale(1.1, 1.1);}
+
+.shop_box p{text-align: left;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 30px;
+                position: relative;/*밑줄 기준*/
+                display: inline-block;}
+
+.shop_box p span{display: inline-block;
+                        width: 200px;
+                        height: 80px;
+                        border-radius: 50px;
+                        background-color: #D1EEFE;
+                        position: absolute;
+                        top: -10px;
+                        left: -20px;
+                        z-index: -1;/*글자 뒤로 이동*/
+                        transform: scaleX(0);/*배경 길이 없애기*/
+                        transform-origin: left;/*배경 길이의 기준점을 왼쪽으로 두기*/
+                        transition: all 1s;}
+
+.shop_box a:hover p span{transform: scaleX(1);/*밑줄 길이 나타나게 만들기*/}
+
+.shop_icon{margin-top:-60px;}
+
+.shop_icon_1{width: 30px;
+                float: right;}
+
+.shop_icon_2{width: 30px;
+                float: right;
+                margin-top: 30px;
+                margin-right: -30px;}
+
+.shop_icon a img:last-child {display: none;}
+.shop_icon a:hover img:last-child {display: inline-block;}
+.shop_icon a:hover img:first-child {display: none;}
+
+/*---------- 서브2_샵_끝 ----------*/
+
+
+/*footer1*/
+#footer1{width: 100%;
+                height: 40px;
+                margin: 0 auto;
+                background-color: #0751a9;}
+
+.f1_inner{width: 500px;
+                height: 40px;
+                margin: 0 auto;}
+
+.f1_inner ul{width: 330.5px;
+                margin: 0 auto;}
+
+.f1_inner ul li{float: left;}
+.f1_inner ul li:nth-child(1){margin-right: 50px;}
+.f1_inner ul li:nth-child(2){margin-right: 50px;}
+
+.f1_inner ul li a{display: inline-block;
+                        font-size: 15px;
+                        font-weight: 500;
+                        color: white;
+                        padding: 9px 0;}
+.f1_inner ul li a:hover{text-decoration: underline;}
+
+/*footer2*/
+#footer2{width: 100%;
+        height: 200px;
+        margin: 0 auto;
+        background-color: #ebf8ff;}
+
+.f2_inner{width: 1320px;
+        height: 200px;
+        margin: 0 auto;
+        position: relative;}
+
+.f2_logo{float: left;
+        padding: 27px 0;}
+
+.f2_text{display: block;
+                float: left;
+                text-align: center;
+                width: 885px;
+                padding: 45px 0;}
+
+.f2_sns{height: 40px;
+                padding: 80px 0;
+                position: absolute;
+                right: 0;
+                top: 0;
+                display: block;}
+
+.f2_sns a{float: left;
+                display: block;
+                height: 40px;}
+.f2_sns a:nth-child(1){padding-right: 15px;}
+.f2_sns a:nth-child(2){padding-right: 15px;}
+.f2_sns a:nth-child(3){padding-right: 15px;}
+
+#footer2 a img:last-child {display: none;}
+#footer2 a:hover img:last-child {display: block;}
+#footer2 a:hover img:first-child {display: none;}
